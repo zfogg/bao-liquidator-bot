@@ -17,6 +17,14 @@ contract Constants {
 
     address public bSTBL = 0x5ee08f40b637417bcC9d2C51B62F4820ec9cF5D8;
     address public bUSD = 0x7945b0A6674b175695e5d1D08aE1e6F13744Abb0;
+    address public bETH = 0xa1e3F062CE5825c1e19207cd93CEFdaD82A8A631;
+    address public baoETH = 0x7945b0A6674b175695e5d1D08aE1e6F13744Abb0;
+
+    ICToken public baoETH_bdbSTBL = ICToken(0xb0f8Fe96b4880adBdEDE0dDF446bd1e7EF122C4e);
+    ICToken public baoETH_bdbETH = ICToken(0xf7548a6e9DAf2e4689CEDD8A08189d0D6f3Ee91b);
+    ICToken public baoETH_bdbaoETH = ICToken(0xe853E5c1eDF8C51E81bAe81D742dd861dF596DE7);
+    ICToken public baoETH_bdETH = ICToken(0x104079a87CE46fe2Cf27b811f6b406b69F6872B3);
+    address public bETH_recipe = 0x600e353Fa3414abDD08B5F20b20b4cd701823b9B;
 
     address public aUSDC = 0xBcca60bB61934080951369a648Fb03DF4F96263C;
     address public aRAI = 0xc9BC48c72154ef3e5425641a3c747242112a46AF;
@@ -29,6 +37,9 @@ contract Constants {
     address public FEI = 0x956F47F50A910163D8BF957Cf5846D573E7f87CA;
     address public DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address public FRAX = 0x853d955aCEf822Db058eb8505911ED77F175b99e;
+
+    address public wstETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
+    address public rETH = 0xae78736Cd615f374D3085123A210448E74Fc6393;
 
     address public USDCFeed = 0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6;
     address public RAIFeed = 0x483d36F6a1d063d580c7a24F9A42B346f3a69fbb;
@@ -43,6 +54,7 @@ contract Constants {
     address public admin = 0xFC69e0a5823E2AfCBEb8a35d33588360F1496a00;
     address public oracle = 0xEbdC2D2a203c17895Be0daCdf539eeFC710eaFd8;
     address public unitroller = 0x0Be1fdC1E87127c4fe7C05bAE6437e3cf90Bf8d8; //Comptroller interface
+    address public unitroller_baoETH = 0x8e8C327AD3Fa97092cdAba70efCf82DaC3081fa1; //Comptroller interface
     address public usdcInterestRateModel = 0x681Cf55f0276126FAD8842133C839AB4D607E729;
     address public recipe = 0xac0fE9F363c160c281c81DdC49d0AA8cE04C02Eb;
     address public fed = 0xD79046A1964F2C40B103Caac3fAe95BAa49E6624;

@@ -16,4 +16,5 @@ interface IRecipe {
 
     function getPriceEth(address _basket, uint256 _amount) external returns (uint256 _price);
 
+    function getPrice(address _basket, uint256 _amount) external returns (uint256 _price);
 }

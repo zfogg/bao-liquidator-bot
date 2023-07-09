@@ -30,6 +30,8 @@ interface IComptroller{
 
     function _supportMarket(ICToken cToken) external returns (uint);
 
+    function _setMarketBorrowCaps(address[] memory cTokens, uint256[] memory newBorrowCaps) external;
+
     function admin() external view returns(address);
 
     function getAccountLiquidity(address account) external view returns (uint, uint, uint);
